@@ -116,3 +116,10 @@ public class q1
 		}
 	}
 }
+class IllegalInputException extends Exception
+{
+    public IllegalInputException(String s)
+    {
+        System.out.println("Illegal input: " + s);
+    }
+}
