@@ -87,6 +87,21 @@ public class q1
 							System.out.println("Tried to divide  by Zero");
 						}
 					}
+					else
+                   			{
+			                        throw new IllegalInputException("Illegal operator");    
+                    			}
+				}
+				catch(IllegalInputException e) {}
+				catch(Exception e)
+				{
+					System.out.println("Illegal input : Illegal Argument");
+				}
+				finally
+				{
+					System.out.println("task Completed");
+				}
+				break;
 		}
 	}
 }
