@@ -34,7 +34,7 @@ Creating exception object and handling it to the run-time is called throwing and
 
 * The statements present in the finally block execute even if the try block contains control transfer statements like return, break or continue.
 
-## Algorithm
+## Programs
 1. Implement a simple calculator program that allows the user to specify an operator and up to two operands (arguments / parameters).
 Valid expressions consist of a sequence of one, two or three tokens (each token is separated from the preceding token by one or more spaces), and may take on one of the following forms:
 * 1 token: [quit]. The program responds by exiting
