@@ -102,6 +102,17 @@ public class q1
 					System.out.println("task Completed");
 				}
 				break;
+			default:
+                		try
+                		{
+                			throw new IllegalInputException("Illegal Token Length");
+                		}
+                		catch(IllegalInputException i){}
+                		finally
+				{
+					System.out.println("task Completed");
+				}
+                		break;
 		}
 	}
 }
