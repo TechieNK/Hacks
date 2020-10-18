@@ -30,6 +30,16 @@ public class q2
 			int diff = input1-input2; 
 			System.out.println("Difference = "+diff);
 			int mul = input1*input2;
+			System.out.println("Product = "+mul);
+			try
+			{
+				int quo = input1/input2;
+				System.out.println("Quotient = "+quo);
+			}
+			catch(ArithmeticException e)
+			{
+				System.out.println("Quotient: Division by Zero not possible");
+			}
 		}
 	}
 }
