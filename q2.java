@@ -40,6 +40,15 @@ public class q2
 			{
 				System.out.println("Quotient: Division by Zero not possible");
 			}
+			try
+			{
+				int rem = input1%input2;
+				System.out.println("Remainder = "+rem);
+			}
+			catch(ArithmeticException e)
+			{
+				System.out.println("Remainder: Division by Zero not possible");
+			}
 		}
 	}
 }
