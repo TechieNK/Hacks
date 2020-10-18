@@ -23,5 +23,13 @@ public class q2
 				System.out.println("Output : Invalid Argument Exception");
 			}
 		}
+		void display()
+		{
+			int sum = input1+input2;
+			System.out.println("Sum = "+sum);
+			int diff = input1-input2; 
+			System.out.println("Difference = "+diff);
+			int mul = input1*input2;
+		}
 	}
 }
