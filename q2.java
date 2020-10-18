@@ -51,4 +51,9 @@ public class q2
 			}
 		}
 	}
+	public static void main(String[] args)
+	{
+		Calculate c = new q2().new Calculate();
+		c.getvalues();
+	}
 }
