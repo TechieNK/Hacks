@@ -28,6 +28,31 @@ public class q1
 					System.exit(1);
 				}
 				break;
+			case 2:
+				try
+				{
+					int num = Integer.parseInt(arr[1]);
+					char op = arr[0].charAt(0);
+					if(op=='-')
+					{
+						int res= num*-1;
+						System.out.println("The result is : "+res);
+					}
+					else if(op=='+')
+					{
+						System.out.println("The result is : "+num);
+					}
+					else
+					{
+						throw new IllegalInputException("Illegal Argument");
+					}
+				}
+				catch(IllegalInputException e) {}
+				finally
+				{
+					System.out.println("task Completed");
+				}
+				break;
 		}
 	}
 }
