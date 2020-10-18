@@ -53,6 +53,40 @@ public class q1
 					System.out.println("task Completed");
 				}
 				break;
+			case 3:
+				try
+				{
+					int num1 = Integer.parseInt(arr[0]);
+					int num2 = Integer.parseInt(arr[2]);
+					int op = arr[1].charAt(0);
+					int res=0;
+					if(op=='+')
+					{
+						res=num1+num2;
+						System.out.println("The result is: " + res);
+					}
+					else if(op=='-')
+					{
+						res=num1-num2;
+						System.out.println("The result is: " + res);
+					}
+					else if(op=='*')
+					{
+						res=num1*num2;
+						System.out.println("The result is: " + res);
+					}
+					else if(op=='/')
+					{
+						try
+						{
+							res=num1/num2;
+							System.out.println("The result is: " + res);
+						}
+						catch(ArithmeticException e)
+						{
+							System.out.println("Tried to divide  by Zero");
+						}
+					}
 		}
 	}
 }
