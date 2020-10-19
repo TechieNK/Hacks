@@ -1,7 +1,7 @@
 # <center>Exception Handling</center>
 An exception is a problem that arises during the execution of a program.
 
-<B>Reason :</B>
+<B>Reasons :</B>
 
 * A user has entered an invalid data
 * File not found
