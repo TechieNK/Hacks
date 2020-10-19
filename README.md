@@ -10,7 +10,7 @@ Reason :
 
 If an exception is not handled, it may lead to a system failure. 
 
-![Exception-Handling](Picture.png)
+![Exception-Handling](http://www.anarsolutions.com/wp-content/uploads/2017/08/Exception-Handling.png.png)
 
 <B>What happens if exceptions are not handled?</B>
 
