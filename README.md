@@ -10,6 +10,8 @@ Reason :
 
 If an exception is not handled, it may lead to a system failure. 
 
+![Exception-Handling](Picture.png)
+
 <B>What happens if exceptions are not handled?</B>
 
 When an exception occurs, and if you don’t handle it, the program will terminate abruptly (the piece of code after the line causing the exception will not get executed).
