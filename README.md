@@ -10,7 +10,7 @@ Reason :
 
 If an exception is not handled, it may lead to a system failure. 
 
-![Exception Handling Flow](Picture1.png=100x20 "Exception Handling Flow")
+<img src="Picture1.png" alt="Exception Handling Flow" width="200"/>
 
 <B>What happens if exceptions are not handled?</B>
 
