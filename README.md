@@ -41,9 +41,9 @@ When an exception occurs, and if you don’t handle it, the program will termina
 Valid expressions consist of a sequence of one, two or three tokens (each token is separated from the preceding token by one or more spaces), and may take on one of the following forms:
 * 1 token: [quit]. The program responds by exiting
 * 2 tokens: [UOP N], where N is an integer and UOP is a unary operator (“-”). The program responds by displaying the negative of the given integer.
-* 3 tokens: [N1 BOP N2], where N1 and N2 are integers and BOP is a binary
+* 3 tokens: [N1 BOP N2], where N1 and N2 are integers and BOP is a binary operator (“+” or “/” only). 
 
-operator (“+” or “/” only). The program responds by displaying the result of applying the designated operator to the two arguments.
+The program responds by displaying the result of applying the designated operator to the two arguments.
 A finally block : displaying “task completed”.
 
 ### Sample Input:
